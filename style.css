@@ -1,0 +1,149 @@
+@font-face {font-family: "Academy Engraved LET";
+      src: url("/media/font/3c471385717f118ae2efdeabbdc50824.eot"); /* IE9*/
+      src: url("/media/font/3c471385717f118ae2efdeabbdc50824.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("/media/font/3c471385717f118ae2efdeabbdc50824.woff2") format("woff2"), /* chrome、firefox */
+      url("/media/font/3c471385717f118ae2efdeabbdc50824.woff") format("woff"), /* chrome、firefox */
+      url("/media/font/3c471385717f118ae2efdeabbdc50824.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("/media/font/3c471385717f118ae2efdeabbdc50824.svg#Academy Engraved LET") format("svg"); /* iOS 4.1- */
+    }
+body, html {
+      height: 100%;
+      margin: 0;
+      padding:0;
+  }
+
+
+.flex {
+      display: flex;
+      justify-content: space-around;
+}
+
+div {
+      font-family: "Academy Engraved LET";
+      font-size: x-large;
+      font-weight: bold;
+      color: #1B365b;
+}
+
+.sitemap{
+      background-color: #CFE1EC;
+}
+
+.icon {
+      display: block;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;  
+      margin: 1%;  
+}
+.icon:hover{
+      opacity: 30%;
+}
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #1B365b;
+      
+    }
+
+
+li {
+      float: left;
+    }
+    
+li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 22px 26px;
+      text-decoration: none;
+    }
+    
+li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+.active {
+      background-color: #768cab;
+    }
+
+
+
+.right {
+      float: right
+}
+
+.umrahmt {
+      border: 1px solid black;
+      height: 10%;
+      text-align: center;
+}
+.center {
+      padding: 50px 0 50px;
+}
+
+
+.hoverbild {
+
+      border-radius: 8px;
+      height: auto;
+      width: 20%;     
+      margin: 1%
+}
+
+.produktbild
+{
+      border-radius: 8px;
+      height: auto;
+      width: 280px;     
+      margin: 1%
+}
+.produktbild:hover
+{
+      opacity: 30%;
+}
+
+
+
+.hoverbild:hover {
+      opacity: 30%;
+}
+.verticalLine {
+      border-left: thick solid #ff0000;
+    }
+
+.box {
+      border: 1px solid black;
+      height: 10%;
+      text-align: center;
+      padding: 50px 0 50px;
+
+}
+.box p{
+      font-weight: bold;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.logo{
+      width: 40%
+}

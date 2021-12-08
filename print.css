@@ -1,0 +1,10 @@
+@media print {
+      div {
+       page-break-inside: avoid  ;
+      }
+      body {
+        filter: grayscale(100%);
+        
+      }
+      
+    }
